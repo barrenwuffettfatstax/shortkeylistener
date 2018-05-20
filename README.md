@@ -4,7 +4,7 @@ param([string]$inputtxtinsert,[int]$inputtag,[string]$inputflag)
 
   
   $timetag = get-date((get-date).AddHours(2)) -Uformat "%m/%d/%Y %I:%M %p"
-  $inittag = " - EC, PharmD - FAX "
+  $inittag = " - XX, PxxxxD - FxX "
   $clipstring = "$inputtxtinsert"
   $gabastring = "$inputtxtinsert"
 #  Write-Host $inputtxtinsert
